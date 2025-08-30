@@ -6,3 +6,7 @@ __pycache__/
 *.DS_Store
 .ipynb_checkpoints/
 .env
+
+# not needed files currently
+Ingest_docs.py
+embeddings.py
