@@ -8,4 +8,4 @@ sentence-transformers==3.0.1
 transformers==4.44.2
 torch>=2.1.0
 faiss-cpu
-#python == 3.12
+rank_bm25
