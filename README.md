@@ -28,7 +28,7 @@ python -m venv myenv
 source myenv/bin/activate   # Mac/Linux
 myenv\Scripts\activate      # Windows
 
-'pip install -r requirements.txt'
+`pip install -r requirements.txt`
 
 3. Set Up Environment Variables
 This project requires an API key from a provider like OpenAI.
@@ -43,7 +43,7 @@ e.g., OPENAI_API_KEY="sk-YourSecretApiKeyHere" #I have used a free huggingface A
 
 2. Run the App: Launch the Streamlit application by running the following command in your terminal:
 
-'streamlit run live_app.py'
+`streamlit run live_app.py`
 
 3. Start Chatting: Open the local URL provided by Streamlit in your browser and start asking questions!
 
@@ -51,9 +51,15 @@ e.g., OPENAI_API_KEY="sk-YourSecretApiKeyHere" #I have used a free huggingface A
 RAG-Chatbot/
 │
 ├── app.py              # Main Streamlit application file
+
 ├── rag_pipeline.py     # Core RAG logic (retriever, chain, etc.)
+
 ├── requirements.txt    # Project dependencies
+
 ├── .env                # For storing API keys (not committed)
+
 ├── data/               # Folder for your custom documents
+
 ├── .gitignore          # Files to be ignored by Git
+
 └── README.md           # You are here!
